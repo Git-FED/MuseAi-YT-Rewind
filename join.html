@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b0b10"><meta name="description" content="Join the FEDPromptly email list."><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="join.css"><title>FEDPromptly · Join Email List</title>
+</head>
+<body class="join-page">
+  <main class="join-shell">
+    <a class="join-brand" href="index.html"><img src="assets/favicon.svg" alt="MuseAi rewind symbol">FEDPromptly</a>
+    <section class="join-card" aria-labelledby="join-title">
+      <span class="join-kicker">Stay in the loop</span><h1 id="join-title">Join the email list.</h1><p class="join-subtitle">Get updates, early access, and the occasional strange archive experiment from FEDPromptly.</p>
+      <div class="discord-invite-widget" id="openSignupBtn" role="button" tabindex="0" aria-label="Join our email list"><div class="status-indicator"><span class="status-dot" id="statusDot"></span><span class="status-text" id="statusText">Join now</span></div><input type="text" class="email-input" id="emailInput" placeholder="" readonly tabindex="-1" aria-hidden="true"></div><div class="hint">Click to join the email list</div>
+      <a class="back-link" href="index.html">← Back to MuseAi Rewinds</a>
+    </section>
+  </main>
+  <div class="modal-overlay" id="authModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><button class="close" id="closeModal" type="button" aria-label="Close">×</button><div id="loginView"><h2 id="modalTitle">Join Email List</h2><p class="sub" id="modalSub">Stay updated with FEDPromptly</p><form id="loginForm" autocomplete="off"><div class="form-group"><label for="loginEmail">Email Address</label><input type="email" id="loginEmail" placeholder="you@example.com" required></div><div class="form-group"><label for="loginPassword">Password</label><input type="password" id="loginPassword" placeholder="••••••••" required minlength="6"></div><div class="form-options"><a href="#reset" id="forgotPassword">Forgot password?</a></div><button type="submit" class="btn-primary" id="authSubmitBtn">Join Email List</button><div id="authMessage" class="message" aria-live="polite"></div><div class="divider"><span>or</span></div><div class="toggle-auth"><span id="toggleText">Already joined?</span><button type="button" id="toggleAuthMode">Sign In</button></div></form></div><div class="logged-in-view" id="loggedInView"><div class="avatar" id="loggedInAvatar"></div><h2 id="loggedInName"></h2><p id="loggedInEmail"></p><div class="thank-you-message"><p><strong>Thank you for joining our email list.</strong></p><p>We will be in touch soon. Questions? <a href="mailto:contact@fedpromptly.com">contact@fedpromptly.com</a>.</p></div><button class="btn-secondary" id="logoutBtn" type="button">Logout</button></div></div></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="join.js" defer></script>
+</body>
+</html>
