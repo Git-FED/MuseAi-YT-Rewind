@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">MuseAi rewind symbol</title>
+  <desc id="desc">A violet rewind arrow circling a coral music note.</desc>
+  <rect width="64" height="64" rx="18" fill="#171329"/>
+  <path d="M17 27a22 22 0 1 1-1 18" fill="none" stroke="#6c4bff" stroke-width="6" stroke-linecap="round"/>
+  <path d="m17 18 1 13 12-6" fill="none" stroke="#c7ff5e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 21v23.5a6.5 6.5 0 1 1-4-6.1V21l15-4v20.5a6.5 6.5 0 1 1-4-6.1V13z" fill="#ff6f61"/>
+</svg>
